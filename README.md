@@ -70,3 +70,8 @@ NUMA node1 CPU(s):     8-15,24-31
 Mem:            31G        3.1G         22G        209M        5.3G         27G
 Swap:          8.0G          0B        8.0G
 ```
+
+```
+mvn clean package
+java -jar target/benchmarks.jar -f 1 -wi 20 -i 20 -t 100
+```
